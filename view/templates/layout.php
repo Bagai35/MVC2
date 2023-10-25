@@ -6,7 +6,12 @@
         <div class="container">
             <div class="header clearfix">
                 <h2>Книжный магазин</h2>
-                <h4 class></h4>
+                <h4 class = "text-muted">
+                    <?php
+                    echo '<a href="./">Главная</a> &#187';
+                    
+                    ?>
+                </h4>
             </div>
         </div>
     </body>
